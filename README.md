@@ -34,6 +34,6 @@ Garantir a uniformidade nos relatórios. **Exemplo:** Usar uma dimensão de clie
 ### 10. Equilibrar Requisitos e Realidades
 Ajustar os modelos às necessidades dos negócios. **Exemplo:** Colaborar com stakeholders para criar modelos úteis.
 
-### Finalizado 
+### Conclusão 
 
 Este resumo oferece uma visão geral das práticas de modelagem dimensional essenciais. Para mais informações e exemplos detalhados, visite o [site do Kimball Group](https://www.kimballgroup.com/2009/05/the-10-essential-rules-of-dimensional-modeling/).
