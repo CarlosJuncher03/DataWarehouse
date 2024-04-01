@@ -5,34 +5,54 @@ Entender as regras de modelagem dimensional é crucial para quem deseja obter su
 ## Resumo das Regras e Exemplos
 
 ### 1. Carregar Dados Atômicos Detalhados
-Dados granulares permitem análises profundas. **Exemplo:** Detalhar vendas por transação individual.
+Dados granulares permitem análises profundas. 
+
+**Exemplo:** Detalhar vendas por transação individual.
 
 ### 2. Modelar em Torno de Processos de Negócios
-O esquema deve refletir eventos do mundo real. **Exemplo:** Um modelo centrado no processo de pedidos.
+O esquema deve refletir eventos do mundo real. 
+
+**Exemplo:** Um modelo centrado no processo de pedidos.
 
 ### 3. Associar Tabelas Fato a Dimensões de Data
-Cada evento deve ser mapeado no tempo. **Exemplo:** Associar cada venda a uma data específica.
+Cada evento deve ser mapeado no tempo. 
+
+**Exemplo:** Associar cada venda a uma data específica.
 
 ### 4. Manter a Granularidade Consistente na Tabela Fato
-Todos os registros devem estar no mesmo nível de detalhe. **Exemplo:** Evitar a mistura de dados diários com mensais na mesma tabela.
+Todos os registros devem estar no mesmo nível de detalhe. 
+
+**Exemplo:** Evitar a mistura de dados diários com mensais na mesma tabela.
 
 ### 5. Resolver Relacionamentos Muitos-para-Muitos
-Utilizar tabelas de junção para cenários complexos. **Exemplo:** Produtos vendidos em múltiplas lojas.
+Utilizar tabelas de junção para cenários complexos. 
+
+**Exemplo:** Produtos vendidos em múltiplas lojas.
 
 ### 6. Resolver Relacionamentos Muitos-Para-Um em Dimensões
-Relacionamentos hierárquicos devem ser simplificados. **Exemplo:** Agrupar categorias de produtos em uma tabela de dimensão.
+Relacionamentos hierárquicos devem ser simplificados. 
+
+**Exemplo:** Agrupar categorias de produtos em uma tabela de dimensão.
 
 ### 7. Armazenar Rótulos de Relatórios e Valores de Domínio em Dimensões
-Informações descritivas devem estar nas dimensões. **Exemplo:** Descrições de produtos armazenadas nas dimensões, não nas tabelas fato.
+Informações descritivas devem estar nas dimensões. 
+
+**Exemplo:** Descrições de produtos armazenadas nas dimensões, não nas tabelas fato.
 
 ### 8. Usar Chaves Substitutas nas Tabelas de Dimensão
-Mantenha a consistência e facilite mudanças futuras. **Exemplo:** Utilizar um ID de cliente como chave substituta.
+Mantenha a consistência e facilite mudanças futuras. 
+
+**Exemplo:** Utilizar um ID de cliente como chave substituta.
 
 ### 9. Criar Dimensões Conformadas para Integração de Dados
-Garantir a uniformidade nos relatórios. **Exemplo:** Usar uma dimensão de cliente única para todas as análises.
+Garantir a uniformidade nos relatórios. 
+
+**Exemplo:** Usar uma dimensão de cliente única para todas as análises.
 
 ### 10. Equilibrar Requisitos e Realidades
-Ajustar os modelos às necessidades dos negócios. **Exemplo:** Colaborar com stakeholders para criar modelos úteis.
+Ajustar os modelos às necessidades dos negócios. 
+
+**Exemplo:** Colaborar com stakeholders para criar modelos úteis.
 
 ### Conclusão 
 
